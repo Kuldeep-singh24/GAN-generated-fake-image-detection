@@ -1,0 +1,17 @@
+@font-face {
+    font-family: FoundersGrotesk;
+    src: url("../src/fonts/FoundersGrotesk-Medium.otf");
+    font-weight: bolder;
+}
+
+@font-face{
+    font-family: BowlbyOneSC;
+    src: url("../src/fonts/BowlbyOneSC-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-founders: 'FoundersGrotesk', sans-serif;
+    --font-bowlby: 'BowlbyOneSC', cursive;
+}
