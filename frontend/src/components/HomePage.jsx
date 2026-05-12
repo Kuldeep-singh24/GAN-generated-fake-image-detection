@@ -45,10 +45,13 @@ function HomePage() {
       const form = new FormData();
       form.append("file", file);
 
-      const resp = await fetch("http://localhost:8000/predict", {
-        method: "POST",
-        body: form,
-      });
+      const resp = await fetch(
+  "https://gan-generated-fake-image-detection.onrender.com/predict",
+  {
+    method: "POST",
+    body: form,
+  }
+);
 
       if (!resp.ok) {
         const txt = await resp.text();
