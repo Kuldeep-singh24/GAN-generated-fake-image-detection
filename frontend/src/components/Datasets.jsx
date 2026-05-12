@@ -47,11 +47,7 @@ function Datasets() {
         </div>
       </div>
 
-      <div className="flex w-full items-center justify-center -mt-3">
-        <button className="uppercase text-2xl -mt-5 text-center font-extrabold text-white">
-          Scroll to know more <span className="font-extrabold ml-2">&#8595;</span>
-        </button>
-      </div>
+     
 
     </div>
   );
