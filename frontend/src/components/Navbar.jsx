@@ -21,7 +21,7 @@ function Navbar() {
     }
   };
 
-  const menuItems = ["Deepfake Detector", "Datasets", "About us"];
+  const menuItems = ["Deepfake Detector", "Datasets"];
 
   return (
     <div className="fixed mt-6 w-full z-50 ">
