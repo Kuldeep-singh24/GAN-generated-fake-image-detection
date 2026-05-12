@@ -16,9 +16,6 @@ function Navbar() {
       case "Datasets":
         navigate("/datasets");
         break;
-      case "About us":
-        navigate("/about");
-        break;
       default:
         navigate("/");
     }
